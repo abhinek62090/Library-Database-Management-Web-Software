@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <center>
+    <form name=f>
+        <table>
+            <tr>
+                <th align="left" class="label">Book</th>
+                <th><input type="button" value="Insert" onclick="book_insert()"></th>
+                <th><input type="button" value="Update" onclick="book_update()"></th>
+                <th><input type="button" value="Delete" onclick="book_delete()"></th>
+                <th><input type="button" value="Search" onclick="book_search()"></th>
+            </tr>
+            <tr>
+                <th align="left" class="label">Book Return Records</th>
+                <th><input type="button" value="Insert" onclick="book_return_records_insert()"></th>
+                <th><input type="button" value="Update" onclick="book_return_records_update()"></th>
+                <th><input type="button" value="Delete" onclick="book_return_records_delete()"></th>
+                <th><input type="button" value="Search" onclick="book_return_records_search()"></th>
+            </tr>
+            <tr>
+                <th align="left" class="label">Borrowers Records</th>
+                <th><input type="button" value="Insert" onclick="borrowers_records_insert()"></th>
+                <th><input type="button" value="Update" onclick="borrowers_records_update()"></th>
+                <th><input type="button" value="Delete" onclick="borrowers_records_delete()"></th>
+                <th><input type="button" value="Search" onclick="borrowers_records_search()"></th>
+            </tr>
+            <tr>
+                <th align="left" class="label">Student</th>
+                <th><input type="button" value="Insert" onclick="student_insert()"></th>
+                <th><input type="button" value="Update" onclick="student_update()"></th>
+                <th><input type="button" value="Delete" onclick="student_delete()"></th>
+                <th><input type="button" value="Search" onclick="student_search()"></th>
+            </tr>
+            <tr>
+                <th align="left" class="label">Users</th>
+                <th><input type="button" value="Insert" onclick="users_insert()"></th>
+                <th><input type="button" value="Update" onclick="users_update()"></th>
+                <th><input type="button" value="Delete" onclick="users_delete()"></th>
+                <th><input type="button" value="Search" onclick="users_search()"></th>
+            </tr>
+        </table>
+    </form>
+    <script>
+        function book_insert()
+        {
+            window.open("book.php","_self")
+        }
+        function book_update()
+        {
+            window.open("updatebook.php","_self")
+        }
+        function book_delete()
+        {
+            window.open("deletebook.php","_self")
+        }
+        function book_search()
+        {
+            window.open("dropbook.php","_self")
+        }
+        function book_return_records_insert()
+        {
+            window.open("book_return_records.php","_self")
+        }
+        function book_return_records_update()
+        {
+            window.open("updatebook_return_records.php","_self")
+        }
+        function book_return_records_delete()
+        {
+            window.open("deletebook_return_records.php","_self")
+        }
+        function book_return_records_search()
+        {
+            window.open("dropbook_return_records.php","_self")
+        }
+        function borrowers_records_insert()
+        {
+            window.open("borrowers_records.php","_self")
+        }
+        function borrowers_records_update()
+        {
+            window.open("updateborrowers_records.php","_self")
+        }
+        function borrowers_records_delete()
+        {
+            window.open("deleteborrowers_records.php","_self")
+        }
+        function borrowers_records_search()
+        {
+            window.open("dropborrowers_records.php","_self")
+        }
+        function student_insert()
+        {
+            window.open("student.php","_self")
+        }
+        function student_update()
+        {
+            window.open("updatestudent.php","_self")
+        }
+        function student_delete()
+        {
+            window.open("deletestudent.php","_self")
+        }
+        function student_search()
+        {
+            window.open("dropstudent.php","_self")
+        }
+        function users_insert()
+        {
+            window.open("users.php","_self")
+        }
+        function users_update()
+        {
+            window.open("updateusers.php","_self")
+        }
+        function users_delete()
+        {
+            window.open("deleteusers.php","_self")
+        }
+        function users_search()
+        {
+            window.open("dropusers.php","_self")
+        }
+    </script>
+</body>
+</html>

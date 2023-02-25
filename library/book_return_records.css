@@ -1,0 +1,38 @@
+body{
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url("images/book_return_records.jpg");
+}
+th{
+    font-size: large;
+}
+table{
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color:rgba(0, 0,0,.5);
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+input[type=text]{
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    margin:2px;
+}
+input[type=submit],input[type=button]{
+    font-size: 20px;
+    border-radius: 7px;
+    color: whitesmoke;
+    background-color: black;
+    margin: 5px;
+    cursor: pointer;
+}
+.label{
+    color: bisque;
+}
+input[type=submit]:hover{
+    background-color: darkblue;
+}
+input[type=reset]:hover{
+    background-color: darkblue;
+}
